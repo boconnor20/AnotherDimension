@@ -22,6 +22,8 @@ public class Tester{
     System.out.println( Arrays.toString(ArrayOps.sumCols(A)));
     System.out.println(ArrayOps.isRowMagic(C));
     System.out.println(ArrayOps.isColMagic(D));
+    System.out.println(ArrayOps.isLocationMagic(E, 0, 1));
+    System.out.println(ArrayOps.isLocationMagic(E, 1, 1));
 
   }
 
