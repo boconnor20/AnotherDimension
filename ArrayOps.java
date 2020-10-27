@@ -21,4 +21,13 @@ public class ArrayOps{
      }
      return max;
    }
+//4c
+  public static int[] sumRows(int[][] matrix){
+      int[] arr = new int[matrix.length];
+      for(int i = 0; i < arr.length; i ++){
+        arr[i] = sum(matrix[i]);
+      }
+      return arr;
+    }
+    
 }
