@@ -29,5 +29,12 @@ public class ArrayOps{
       }
       return arr;
     }
-    
+//4d
+  public static int[] largestInRows(int[][] matrix){
+    int[] arr = new int[matrix.length];
+    for(int i = 0; i < arr.length; i ++){
+      arr[i] = largest(matrix[i]);
+    }
+    return arr;
+  }
 }
